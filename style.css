@@ -1,0 +1,34 @@
+/*Styling*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html{
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    padding-left: 5%;
+}
+
+h1{
+    color: rgb(80, 71, 137);
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    font-style: italic;
+}
+
+h2{
+    font-size: 1.8em;
+    font-family: italic;  /*this is for heading no 2 */
+    color:rgb(1, 69, 78);
+    text-align: left;
+}
+
+.skills-list {
+    list-style: decimal-leading-zero;
+    font-family: regular;
+}
+
+body{
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
